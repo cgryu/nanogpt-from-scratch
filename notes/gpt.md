@@ -1,0 +1,1 @@
+The bigram model loss plateaus at roughly 2.5 because every prediction is based off only the current character. The current training model does not allow history before that character to influence the next generation. This is addressed by self-attention which allows each prediction to base off all preceding tokens.
